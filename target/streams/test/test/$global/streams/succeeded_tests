@@ -1,0 +1,6 @@
+#Successful Tests
+#Mon Jun 25 07:34:59 CDT 2018
+com.banno.milestone.UserSpec=1529930096119
+com.banno.milestone.ParserSpec=1529930099079
+http.HttpClientSpec=1529930098842
+com.banno.services.UserServiceSpec=1529930099139

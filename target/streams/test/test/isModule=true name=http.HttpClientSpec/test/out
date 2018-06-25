@@ -1,0 +1,12 @@
+[0m[[0m[0minfo[0m] [0m[0mHttpClientSpec[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we call a Get request executeHttpGet should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a status code of 200[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we call a Get request with invalid link executeHttpGet should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m throw a 301 error[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we call a Get request executeHttpGet should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a header[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we call a Get request executeHttpGet should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a HttpResponse[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal for specification HttpClientSpec[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 3 seconds, 431 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m4 examples, 0 failure, 0 error[0m[0m

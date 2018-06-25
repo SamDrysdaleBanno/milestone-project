@@ -1,0 +1,38 @@
+[0m[[0m[0minfo[0m] [0m[0mUserServiceSpec[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen trying to get a list of all dbUsers getAll should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a list of type dbUser[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen trying to get a list of all dbUsers getAll should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a list of dbUser[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we try to get a user that does exist get should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return some dbUser[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we try to get an invalid user get should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return None[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we try to create an account with a username that already exists create should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return None[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we try to create an account with a username that isn't taken create should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return the username of the created user[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen trying to change a password of a valid user changePassword should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a Future of Some String[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen trying to change a password of an invalid user changePassword should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a Future of None[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen passing in valid UserCred and a term to add addToSearchTerm should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a Future of Some String[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen passing in an invalid UserCred addToSearchTerm should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return None[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen passing in a valid UserCred verifyUser should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return true[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen passing in a user with a valid username and invalid password verifyUser should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return false[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen passing in a user with an invalid username verifyUser should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return false[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen we have a user and we call findMostFrequent it should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m find the most frequent search[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen we have a user that has a tie for the most frequent search findMostFrequent should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return dogs[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen we have a user that hasn't searched for anything findMostFrequent should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return null[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen we have a list of users allMostFrequentSearch should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return some list of string[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal for specification UserServiceSpec[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 3 seconds, 736 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m17 examples, 0 failure, 0 error[0m[0m

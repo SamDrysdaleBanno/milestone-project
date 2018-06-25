@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(http.HttpClientSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.banno.milestone.ParserSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.banno.services.UserServiceSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.banno.milestone.UserSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for specs2 not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 30, Failed 0, Errors 0, Passed 30[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	http.HttpClientSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.banno.services.UserServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.banno.milestone.ParserSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.banno.milestone.UserSpec[0m

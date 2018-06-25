@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/sdrysdale/scala-bootcamp/milestone-project/src/test/scala/services/UserServiceSpec.scala:58:97: identifier expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      userService.create(UserCred("newUser", "newPass")) === Some(User: newUser has been created)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sdrysdale/scala-bootcamp/milestone-project/src/test/scala/services/UserServiceSpec.scala:59:5: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

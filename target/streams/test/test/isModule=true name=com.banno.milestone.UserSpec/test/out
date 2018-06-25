@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0mUserSpec[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen we have a user with searchs createNeededInfoCollection should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a neededInfoCollection[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen we have a user that hasn't searched for anything createNeededInfoCollection should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a neededInfoCollection with the user and empty lists[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen we have an empty user list createCollection should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return an empty list[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal for specification UserSpec[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 682 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m3 examples, 0 failure, 0 error[0m[0m

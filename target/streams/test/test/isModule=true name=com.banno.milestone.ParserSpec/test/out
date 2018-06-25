@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mParserSpec[0m
+[0m[[0m[0minfo[0m] [0m[0mWhen we pass the string Scala generateURL should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a url[0m
+[0m[[0m[0minfo[0m] [0m[0mwhen we pass in an unparsed String useRegex should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a list of parsed strings[0m
+[0m[[0m[0minfo[0m] [0m[0mif we were to pass a string that didn't have anything that satisfied the regex getRegex should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return an empty list[0m
+[0m[[0m[0minfo[0m] [0m[0mIf we pass a string we got from useRegex createResult should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a Result[0m
+[0m[[0m[0minfo[0m] [0m[0mIf we pass a string that doesn't match the requirements createResult should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m throw an exception[0m
+[0m[[0m[0minfo[0m] [0m[0mIf we use Scala as the searchTerm createResultList should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m return a list of Results[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal for specification ParserSpec[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 3 seconds, 678 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m6 examples, 0 failure, 0 error[0m[0m
