@@ -1,4 +1,4 @@
-package com.banno.template.config
+package com.banno.milestone.config
 
 import org.specs2.mutable.Specification
 import cats.effect.IO
